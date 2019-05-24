@@ -4,7 +4,7 @@ using System.Text;
 
 namespace GeekBurguer.Users.Contract
 {
-    public class User
+    public class UserToGet
     {
         public Guid Id { get; set; }
         public Byte[] Face { get; set; }
